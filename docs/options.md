@@ -48,7 +48,7 @@ This step repeatedly merges the most similar pair of communities to reconstruct 
 
 ## STEP 3 of PCMA: Post-processing
 
-This step cleans the noise accumulated in the merged communities to sift out real communities. The provided [post_processing.cpp](src/post_processing.cpp) is a minimal implementation and it outputs only the IDs of each community's members. Customize it to output more useful information for in-depth analysis. For details, see Section II C of the paper.
+This step cleans the noise accumulated in the merged communities to sift out real communities. The provided [post_processing.cpp](../src/post_processing.cpp) is a minimal implementation and it outputs only the IDs of each community's members. Customize it to output more useful information for in-depth analysis. For details, see Section II C of the paper.
 
 #### Options
 

@@ -27,7 +27,7 @@ The corresponding encoded array is:
 ```
 
 ## Converting from Edge List
-A program [el_to_al_.cpp](tools/el_to_al.cpp) is provided for converting edge list to the format used by PCMA.
+A program [el_to_al_.cpp](../tools/el_to_al.cpp) is provided for converting edge list to the format used by PCMA.
 
 ```
 $ g++ -std=c++11 el_to_al.cpp -o el_to_al

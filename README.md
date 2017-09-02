@@ -38,7 +38,7 @@ $ ./merge -t 0.1 -i ./output/partial_communities.dat -o ./output/merged_communit
 $ ./post-processing -l 10 -f 0.1 -i ./output/merged_communities.dat -o ./output/detected_communities.txt
 ```
 
-For advanced usage, see [options.md](options.md).
+For advanced usage, see [options.md](docs/options.md).
 
 The detected communities are saved in `detected_communities.txt`, with each line showing the member IDs of a community. To evaluate the accuracy, compare the result to the ground-truth `generated_communities.txt` with an evaluation measure, such as the Normalized Mutual Information or Omega Index.
 
