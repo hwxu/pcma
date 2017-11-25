@@ -2,10 +2,7 @@
 
 The input network is encoded into an array of 4-byte unsigned integers in binary format:
 
-<code>
-n d<sub>0</sub> [Vertex 0's d<sub>0</sub> neighbors] d<sub>1</sub> [Vertex 1's d<sub>1</sub> neighbours] ... d<sub>n-1</sub> [Vertex n-1's d<sub>n-1</sub> neighbors]
-</code>
-<br />
+<code>n d<sub>0</sub> [Vertex 0's d<sub>0</sub> neighbors] d<sub>1</sub> [Vertex 1's d<sub>1</sub> neighbors] ... d<sub>n-1</sub> [Vertex n-1's d<sub>n-1</sub> neighbors]</code>
 
 `n` is the number of vertices in the network, <code>d<sub>i</sub></code> is the degree of Vertex i. Note that vertices are numbered by consecutive integers starting from 0.
 
