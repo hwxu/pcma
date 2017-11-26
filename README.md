@@ -2,7 +2,9 @@
 
 PCMA is an efficient algorithm for detecting community structure in large-scale networks with millions / billions of vertices. Especially suitable for analyzing huge social networks.
 
-For more information, read the paper [https://arxiv.org/abs/1509.00556](https://arxiv.org/abs/1509.00556)
+For more information, read the paper: 
+
+E. H. W. Xu and P. M. Hui, Network Science (2017). [doi:10.1017/nws.2017.32](https://doi.org/10.1017/nws.2017.32), [arXiv:1509.00556](https://arxiv.org/abs/1509.00556)
 
 ## Installation
 
