@@ -164,7 +164,7 @@ find_communities(std::unique_ptr<AdjacencyList>& al,
             
             // compare k and k_new
             for (i = 0; i < total_size; i++)
-                if (fabs(k[0][i] - k_new[0][i]) > EPSILON)
+                if (std::fabs(k[0][i] - k_new[0][i]) > EPSILON)
                     break;
             // break loop if they are close enough
             if (i == total_size) {
